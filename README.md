@@ -52,6 +52,8 @@ Click [here](https://www.khronos.org/registry/OpenGL-Refpages/gl2.1/) to learn a
 - Reflection about XY, YZ and ZX plane
 - Shearing about X, Y and Z axis
 
+### Bezier Curves
+
 ### 3D Shapes with Animations
 - Cube
 - Sphere
