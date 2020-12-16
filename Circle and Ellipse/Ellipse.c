@@ -23,7 +23,7 @@ void display()
     b=minor/2;
     y=b;
 
-    pk1 = (b*b) + (0.25*a*a) - (a*a*b);                                 //region where slope of tangent is <-1
+    pk1 = (b*b) + (0.25*a*a) - (a*a*b);                                 //region where slope of tangent is <1
 	for(x=0; (2*b*b*x)<(2*a*a*y); x++) 
     {
 		glVertex2f(x+xc,y+yc);
@@ -42,7 +42,7 @@ void display()
         } 
     }
 
-    pk2 =(b*b*(x+0.5)*(x+0.5)) + (a*a*(y-1)*(y-1)) - (a*a*b*b);         //region where slope of tangent is >-1
+    pk2 =(b*b*(x+0.5)*(x+0.5)) + (a*a*(y-1)*(y-1)) - (a*a*b*b);         //region where slope of tangent is >1
 	for(y=y; y>0; y--)
     {
 		glVertex2f(x+xc,y+yc);
